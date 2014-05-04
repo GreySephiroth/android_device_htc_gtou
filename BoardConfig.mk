@@ -29,5 +29,7 @@ TARGET_PREBUILT_KERNEL := device/htc/gtou/kernel
 
 BOARD_HAS_NO_SELECT_BUTTON := true
 
+TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/class/android_usb/android0/f_mass_storage/lun0/file"
+
 #twrp
 DEVICE_RESOLUTION := 320x480
